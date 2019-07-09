@@ -1,0 +1,29 @@
+table {
+  border: 1px solid black;
+}
+table,
+td {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+}
+td {
+  padding: 0.5em;
+}
+.canvasCells {
+  padding: 0.1em;
+}
+#painter {
+  display: flex;
+  height: 90vh;
+}
+#palette {
+  margin-left: 3%;
+}
+#buttons {
+  display: flex;
+  flex-direction: column;
+  margin-right: 3%;
+}
+#canvasTbl {
+  height: 75%;
+}
